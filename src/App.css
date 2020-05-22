@@ -1,0 +1,67 @@
+.navbar-brand {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.7em;
+}
+
+.searchBar {
+  display: block;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.movie-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1em;
+  margin: 0;
+}
+
+.movie-content {
+  font-family: "Josefin Slab", serif;
+}
+
+.btn {
+  background-color: rgb(48, 88, 128);
+  border: none;
+  margin: 10px;
+  color: white;
+  padding: 12px 16px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.card {
+  width: 150px;
+}
+.card-body {
+  display: block;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
